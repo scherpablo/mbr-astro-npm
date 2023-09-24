@@ -26,6 +26,7 @@ import Buttons from "../NavBar/Buttons/Buttons.astro";
     position: fixed;
     width: 100%;
     height: 160px;
+    aspect-ratio: attr(width) / attr(height);
     z-index: 1;
     transition: background-color 0.8s ease;
   }
@@ -37,6 +38,7 @@ import Buttons from "../NavBar/Buttons/Buttons.astro";
   }
   .divLogo img {
     width: 200px;
+    aspect-ratio: attr(width);
   }
 
   @media (max-width: 768px) {

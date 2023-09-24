@@ -1,0 +1,55 @@
+<div>
+    <div class="divMenu">
+      <a
+        href="https://tienda.estilombr.com.ar/"
+        target="_blank"
+        rel="noreferer"
+        class="linkMenu"
+      >
+        <button class="buttonNavBar">Tienda</button>
+      </a>
+      <a
+        href="https://www.facebook.com/profile.php?id=100048890242534"
+        target="_blank"
+        rel="noreferer"
+        class="linkMenu"
+      >
+        <button class="buttonNavBar">Facebook</button>
+      </a>
+      <a href="https://instagram.com/estilo.mbr/" target="_blank" rel="noreferer" class="linkMenu">
+        <button class="buttonNavBar">Instagram</button>
+      </a>
+    </div>
+  </div>
+
+
+
+  <style>
+    .divMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-family: var(--fontParagraph);
+    font-weight: 500;
+  }
+  .linkMenu {
+    text-decoration: none;
+  }
+.buttonNavBar {
+  font-family: var(--fontParagraph);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--blackText);
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 2px solid var(--whiteText);
+  background-color: var(--whiteText);
+}
+.buttonNavBar:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+  </style>

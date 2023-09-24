@@ -1,0 +1,53 @@
+---
+import Buttons from "../NavBar/Buttons/Buttons.astro";
+---
+
+<nav class="navContainer">
+  <div class="divContainer">
+    <div class="divLogo">
+      <img
+        src="img/navBar/logo-mbr-svg.svg"
+        alt="logo-navBar"
+        width="200"
+        height="80"
+      />
+    </div>
+    <Buttons />
+  </div>
+  <script src="./navbar.js"></script>
+</nav>
+
+<style>
+  /* NAV BAR */
+  nav.nav-down {
+    background-color: black;
+  }
+  .navContainer {
+    position: fixed;
+    width: 100%;
+    height: 160px;
+    z-index: 1;
+    transition: background-color 0.8s ease;
+  }
+  .divContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+  }
+  .divLogo img {
+    width: 200px;
+  }
+
+  @media (max-width: 768px) {
+    .navContainer {
+      position: relative;
+    }
+    .divContainer {
+      flex-direction: column;
+    }
+    .divLogo {
+      margin-bottom: 20px;
+    }
+  }
+</style>

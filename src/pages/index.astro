@@ -1,0 +1,47 @@
+---
+import Header from "../components/Header/Header.astro";
+import SectionOne from "../components/SectionOne/SectionOne.astro";
+import SectionTwo from "../components/SectionTwo/SectionTwo.astro";
+import SectionThree from "../components/SectionThree/SectionThree.astro";
+import SectionFive from "../components/SectionFive/SectionFive.astro";
+import Footer from "../components/Footer/Footer.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Estilo MBR, tienda online de calzados y accesorios. Nos encontramos en Lomas de Zamora, Buenos Aires, Argentina."
+    />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@400;600;900&family=Quicksand:wght@300;400;500;700&family=Raleway:wght@400;500;600;800&family=Rubik:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <script
+      src="https://kit.fontawesome.com/3a84dfeae6.js"
+      crossorigin="anonymous"></script>
+    <title>Astro Test</title>
+  </head>
+  <body>
+    <Header />
+    <SectionOne />
+    <SectionTwo />
+    <SectionThree />
+    <SectionFive />
+    <Footer />
+  </body>
+</html>

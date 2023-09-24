@@ -1,43 +1,39 @@
----
-
----
-
-<section class="conatinerSection">
-  <div class="divSection">
-    <div class="divText">
-      <h2>Siempre es buen</h2>
-      <h2 class="h2Two">momento para usar</h2>
-      <h2 class="h2Three">
-        <span>MBR.</span>
-      </h2>
-    </div>
-    <div class="divSocialNet">
-      <p>Seguinos en las redes</p>
-      <div class="divLink">
-        <a
-          href="https://www.facebook.com/profile.php?id=100048890242534"
-          target="_blank"
-          rel="noreferer"
-          class="linkMenu"
-          data-name="icon-facebook"
-        >
-          <i class="fa-brands fa-square-facebook fa-2xl"></i>
-        </a>
-        <a
-          href="https://www.instagram.com/estilo.mbr/"
-          target="_blank"
-          rel="noreferer"
-          class="linkMenu"
-          data-name="icon-instagram"
-        >
-          <i class="fa-brands fa-instagram fa-2xl"></i>
-        </a>
+<Fragment>
+  <section class="conatinerSection">
+    <div class="divSection">
+      <div class="divText">
+        <h2 class="h2One">
+          Con <span>MBR</span> expresá
+        </h2>
+        <h2 class="h2Two">tu estilo y confianza</h2>
+        <h2 class="h2Three">en cualquier ocasión.</h2>
+      </div>
+      <div class="divSocialNet">
+        <p>Seguinos en las redes</p>
+        <div class="divLink">
+          <a
+            href="https://www.facebook.com/profile.php?id=100048890242534"
+            target="_blank"
+            rel="noreferer"
+            class="linkMenu"
+            name="icon-facebook"
+          >
+            <i class="fa-brands fa-square-facebook fa-2xl"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/estilo.mbr/"
+            target="_blank"
+            rel="noreferer"
+            class="linkMenu"
+          >
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<style>
+  <style>{`
   .conatinerSection {
     width: 100%;
     height: auto;
@@ -45,7 +41,7 @@
     padding: 0;
     box-sizing: border-box;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("/img/sectionOne/img-sectionOne-min.webp");
+      url("/img/sectionFive/img-sectionFive-min.webp");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -98,8 +94,9 @@
   @media (max-width: 768px) {
     .conatinerSection {
       height: auto;
+      /* background-image: none; */
       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("/img/sectionOne/img2-sectionOne-min.webp");
+        url("/img/sectionFive/img2-sectionFive-min.webp");
       background-color: #606060;
     }
     .divSection {
@@ -144,4 +141,5 @@
       font-size: 18px;
     }
   }
-</style>
+`}</style>
+</Fragment>;
